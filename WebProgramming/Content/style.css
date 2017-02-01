@@ -1,0 +1,96 @@
+﻿
+
+
+    
+.banr-head .login-sec {
+	background: rgba(0,0,0,0.8);
+	border-radius: 0 0 6px 6px;
+}
+.banr-head .login-sec .uou-tabs .tabs li {
+	width: 50%;
+	margin: 0px !important;
+	float: left;
+	text-align: center;
+}
+.banr-head .login-sec input {
+	background: #424242;
+	border-radius: 30px;
+	border: none;
+	height: 40px;
+	font-size: 14px;
+	padding: 0 30px;
+	margin-bottom: 15px;
+}
+.banr-head .login-sec .uou-tabs form {
+	padding: 40px;
+	display: inline-block;
+	width: 100%;
+	margin: 0px;
+}
+.banr-head .login-sec .login-with {
+	float: right;
+	margin-top: 5px;
+}
+.banr-head .login-sec .login-with span {
+	margin-right: 10px;
+	color: #fff;
+	font-size: 14px;
+}
+.banr-head .login-sec .login-with a {
+	height: 34px;
+	width: 34px;
+	text-align: center;
+	line-height: 34px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0px;
+	font-size: 12px;
+	color: #fff;
+	background: rgba(0,0,0,0.9);
+	transition: all 0.3s;
+}
+.banr-head .login-sec .login-with a:hover {
+	background: #0099ff;
+}
+.banr-head .login-sec .uou-tabs .content > div {
+	padding: 0px;
+}
+.banr-head .login-sec .forget {
+	border-top: 1px solid rgba(255,255,255,0.2);
+	display: inline-block;
+	width: 100%;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+	font-size: 12px;
+}
+.banr-head .login-sec button {
+	border: none;
+	background: #0099ff;
+	border-radius: 30px;
+	padding: 8px 30px;
+	color: #fff;
+	float: left;
+	font-size: 14px;
+	transition: all 0.3s;
+}
+.banr-head .login-sec button:hover {
+	background: rgba(0,0,0,0.8);
+}
+.banr-head .login-sec .uou-tabs .tabs li a {
+	border: none;
+	padding: 15px 10px;
+	background: #0099ff;
+	color: #fff;
+}
+.banr-head .login-sec .uou-tabs .tabs li.active a {
+	background: none;
+}
+.banr-head .uou-tabs .content {
+	border: none;
+}
+.banr-head input[type="email"], input[type="text"], input[type="password"] {
+	color: #fff;
+}
+</style>
