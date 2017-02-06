@@ -1,10 +1,8 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-   
-
-
-    <link href="~/Content/style.css" rel="stylesheet" />
+  
+    
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - HRM Systems</title>
@@ -19,8 +17,9 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>HR Personnel - Admin</title>
 
-        <!-- Bootstrap -->
-    
+        <!-- CSS -->
+
+   
          <link href="~/css/style.css" rel="stylesheet" />
 
        
@@ -28,14 +27,12 @@
 
 
 </head>
-<body style="background-image:url(~/img/bg1.jpg)">
-    <div class="banr-head">
-        <div class="login-sec">
+<body style="background-color:azure">
 
+    
             @RenderBody()
             <hr />
-            </div>
-        </div>
+
             <footer style="text-align:center; font-family:'Times New Roman'">
                 <h3>&copy; @DateTime.Now.Year -Humane Resourses Managment System</h3>
             </footer>

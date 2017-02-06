@@ -6,37 +6,26 @@ using System.Web.Mvc;
 
 namespace WebProgramming.Controllers
 {
-    public class HRPersonnelController : Controller
+    public class SMEController : Controller
     {
-        // GET: HRPersonnel
+        // GET: SME
         public ActionResult Index()
         {
             return View();
         }
-        public ActionResult login()
+        public ActionResult Email()
         {
-
-
             return View();
         }
-        public ActionResult Register()
+        public ActionResult ComposeEmail()
         {
-
-
+            return View();
+        }
+        public ActionResult Applicants()
+        {
             return View();
         }
 
-        public ActionResult Applications()
-        {
 
-
-            return View();
-        }
-        public ActionResult JobCall()
-        {
-
-
-            return View();
-        }
     }
 }

@@ -8,36 +8,71 @@
 
     <div class="container">
         <div class="row">
-         
-                <!-- TABS -->
-                <div class="uou-tabs">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <span class="text-center">
+                            @*<span class="text-left">Fill with Appropriate info</span>*@
+                            <span class="col-lg-offset-4"><b>Login With your Deatails</b></span>
+                        </span>
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-md-6">
 
 
-                    <div class="content">
+                            <form  id="loginForm" method="post" action="javascript:checkRole();">
 
 
-                        <!-- REGISTER -->
-                        <div id="log-in">
-                            <form>
-                                
-                               <select id="role" style="background-color:#313131; color:white;text-align:center">
-                                   <option value="">Select Role</option>
-                                   <option value="HR Personal">HR Personal</option>
-                                   <option value="HR Manager">HR Manager</option>
-                                   <option value="SME">SME</option>
-                                   <option value="Applicant">Applicant</option>
+                                <select id="role"  >
+                                    <option value="">Select Role</option>
+                                    <option value="HR Personal">HR Personal</option>
+                                    <option value="HR Manager">HR Manager</option>
+                                    <option value="SME">SME</option>
+                                    <option value="Applicant">Applicant</option>
 
-                               </select><br><br>
-                                <input type="email" placeholder="Email Address">
-                                
-                                <input type="password" placeholder="Password"><br>
-                                <button type="submit">Login</button>
+                                </select>
+                                <p id="msg" style="color:red"></p>
+                                <br />
+
+                                <div class="col-md-3">
+                                    <input type="email" placeholder="Email Address">
+                                </div>
+                                <br /><br /><br /><br />
+                                <div class="col-md-3">
+
+                                    <input type="password" placeholder="Password" style="color:black"><br>
+                                </div>
+                                <br /><br /><br /><br />
+                                <button type="submit" class="btn btn-success" >Login>></button>
                                 @*<div class="login-with"> <span>Or login with:</span> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-google"></i></a> <a href="#."><i class="fa fa-linkedin"></i></a> </div>*@
-                            </form>
-                        </div>
 
+                            </form>
+
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-   
+            <div class="col-md-3"></div>
+   </div>
+</div>        
+<script type="text/javascript">
+    function checkRole() {
+        var role = document.getElementById("role").value;
+        if (role == "Applicant") {
+            location.href = "/Applicant";
+        }
+        else if (role == "HR Personal") {
+            location.href = "/HRPersonnel";
+        }
+        else if (role == "SME") {
+
+            location.href="/SME"
+        }
+        else {
+            document.getElementById("msg").innerHTML = "Please Select A role";
+        }
+
+    }
+</script>
