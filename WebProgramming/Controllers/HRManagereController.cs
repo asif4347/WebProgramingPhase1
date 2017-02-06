@@ -6,20 +6,25 @@ using System.Web.Mvc;
 
 namespace WebProgramming.Controllers
 {
-    public class ApplicantController : Controller
+    public class HRManagereController : Controller
     {
-        // GET: Applicant
+        // GET: HRManagere
         public ActionResult Index()
         {
             return View();
         }
-        public ActionResult ContactAdmin()
+        public ActionResult ComposeEmail()
         {
             return View();
         }
-        public ActionResult Jobs()
+        public ActionResult CreateRole()
         {
             return View();
         }
+        public ActionResult Applicants()
+        {
+            return View();
+        }
+
     }
 }

@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "CreateRole";
+    Layout = "~/Views/Shared/_LayoutHRManagere.cshtml";
+}
+
+<h2>Create Role</h2>
+<form>
+
+    <input type="text" placeholder="Full Name"><br><br>
+    <input type="email" placeholder="Email Address"><br><br>
+    <input type="text" placeholder="Phone"><br><br>
+    <input type="password" placeholder="Password"><br><br>
+    <select id="role">
+        <option value="">Select Role</option>
+        <option value="HR Personal">HR Personal</option>
+        <option value="SME">SME</option>
+        <option value="Applicant">Applicant</option>
+    </select>
+    <button type="submit">Create</button>
+    @*<div class="login-with"> <span>Or login with:</span> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-google"></i></a> <a href="#."><i class="fa fa-linkedin"></i></a> </div>*@
+</form>
+

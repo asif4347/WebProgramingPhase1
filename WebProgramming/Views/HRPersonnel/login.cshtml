@@ -62,7 +62,7 @@
     function checkRole() {
         var role = document.getElementById("role").value;
         if (role == "Applicant") {
-            location.href = "/Applicant";
+            location.href = "/Applicant/Jobs";
         }
         else if (role == "HR Personal") {
             location.href = "/HRPersonnel";
@@ -70,6 +70,9 @@
         else if (role == "SME") {
 
             location.href="/SME"
+        }
+        else if (role = "HR Manager") {
+            location.href = "/HRManagere/Index"
         }
         else {
             document.getElementById("msg").innerHTML = "Please Select A role";
