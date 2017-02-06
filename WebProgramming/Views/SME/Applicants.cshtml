@@ -1,8 +1,104 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Applicants";
     Layout = "~/Views/Shared/_LayoutSME.cshtml";
 }
 
 <h2>Applicants</h2>
+
+<div class="row">
+    
+
+    <table class="table table-hover ;table-responsive table-bordered table-condensed">
+
+        <tr>
+            <th>
+                Sr#
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Apply Post
+            </th>
+            <th>
+               Rating
+            </th>
+            <th>
+                More Details
+            </th>
+        </tr>
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+                M Asif
+            </td>
+            <td>
+                masif@icloud.com
+            </td>
+            <td>
+                Software Developer
+            </td>
+            <td>
+                <select id="rate">
+                    <option>Rate</option>
+                    <option value="Exellent">Exellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Poor">Poor</option>
+                    
+                </select>
+            </td>
+            <td>
+                <a href="#">View Other Details</a>
+            </td>
+            <td>
+                <a href="#" class="btn btn-success">Save</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                Zohaib Munir
+            </td>
+            <td>
+                zohaib@gmail.com
+            </td>
+            <td>
+                Frontend Developer
+            </td>
+            <td>
+                <select id="rate">
+                    <option>Rate</option>
+                    <option value="Exellent">Exellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Poor">Poor</option>
+
+                </select>
+            </td>
+            <td>
+                <a href="#">View Other Details</a>
+            </td>
+            <td>
+                <a href="#" class="btn btn-success">Save</a>
+            </td>
+
+
+        </tr>
+
+
+
+    </table>
+
+
+
+
+</div>
 

@@ -38,5 +38,12 @@ namespace WebProgramming.Controllers
 
             return View();
         }
+        public ActionResult ComposeMAil()
+        {
+
+
+            return View();
+        }
+
     }
 }

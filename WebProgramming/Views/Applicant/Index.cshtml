@@ -1,8 +1,43 @@
 ﻿
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+    Layout = "~/Views/Shared/_LayoutApplicant.cshtml";
 }
 
-<h2>Index</h2>
+<div class="row">
+    <div class="col-md-6">
+        <label>Job Title</label><br>
+        <input type="text" id="jobTitle" />
+    </div>
+    <div class="col-md-6">
+        <label>Education</label><br>
+        <input type="text" id="Education" />
+    </div>
+</div><br />
+<div class="row">
+    <div class="col-md-6">
+        <label>Department</label><br>
+        <input type="text" id="dep" />
+    </div>
+    <div class="col-md-6">
+        <label>Position</label><br>
+        <input type="text" id="position" />
+    </div>
+</div>
+<br />
+<div class="row">
+    <div class="col-md-6">
+        <label> Skills</label><br>
+        <input type="text" id="dep" />
+    </div>
+    <div class="col-md-6">
+        <label>Upload CV</label><br>
+        <input type="file" value="Browse" id="position" />
+    </div>
+</div><br />
+
+<br />
+<button type="submit" class="btn btn-success">Apply</button>
+
+
 

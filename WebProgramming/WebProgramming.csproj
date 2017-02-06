@@ -254,6 +254,10 @@
     <Content Include="Views\SME\Email.cshtml" />
     <Content Include="Views\SME\ComposeEmail.cshtml" />
     <Content Include="Views\SME\Applicants.cshtml" />
+    <Content Include="Views\HRPersonnel\ComposeMAil.cshtml" />
+    <Content Include="Views\Shared\_LayoutLogin.cshtml" />
+    <Content Include="Views\Shared\_LayoutApplicant.cshtml" />
+    <Content Include="Views\Applicant\ContactAdmin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

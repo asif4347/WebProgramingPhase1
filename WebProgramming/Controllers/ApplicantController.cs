@@ -13,5 +13,9 @@ namespace WebProgramming.Controllers
         {
             return View();
         }
+        public ActionResult ContactAdmin()
+        {
+            return View();
+        }
     }
 }
